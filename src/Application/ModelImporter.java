@@ -206,8 +206,15 @@ public class ModelImporter {
             switch (curType) {
                 case COMMAND:
                     /*Split name and attributes*/
-                    blockName = curObj.getString(COMMS).split(" ")[0];
-                    blockAttr = curObj.getString(COMMS).split(" ")[1];
+                    String[] nameAttr = curObj.getString(COMMS).split(" ", 2);
+                    blockName = nameAttr[0];
+                    /*Temp solution to compiler commands being only one word*/
+                    if (blockName.equals("Execute")){
+                        blockName += " Transaction";
+                    } else{
+                        blockName += " Document";
+                    }
+                    blockAttr = nameAttr[1];
 
                     /*Create a unique subprocess for each command if inside a
                     parallel branch*/

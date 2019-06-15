@@ -324,11 +324,11 @@
                             <StringItem index="1" value="Archive Document"/>
                             <StringItem index="2" value="Send Document"/>
                             <StringItem index="3" value="Enter Data to IT"/>
-                            <StringItem index="4" value="Request Data from IT"/>
+                            <StringItem index="4" value="Get Data from IT"/>
                             <StringItem index="5" value="Execute Transaction"/>
                             <StringItem index="6" value="Formal Assessment"/>
                             <StringItem index="7" value="Run Subprocess"/>
-                            <StringItem index="8" value="Parallel Procedures"/>
+                            <StringItem index="8" value="Receive Document"/>
                             <StringItem index="9" value="Compose Document"/>
                             <StringItem index="10" value="Parallel Execution"/>
                           </StringArray>

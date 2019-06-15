@@ -225,7 +225,7 @@ public class PicturesqueFrame extends javax.swing.JFrame {
 
         proceduresList1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Process Blocks", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 14))); // NOI18N
         proceduresList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Sign Document", "Archive Document", "Send Document", "Enter Data to IT", "Request Data from IT", "Execute Transaction", "Formal Assessment", "Run Subprocess", "Parallel Procedures", "Compose Document", "Parallel Execution" };
+            String[] strings = { "Sign Document", "Archive Document", "Send Document", "Enter Data to IT", "Get Data from IT", "Execute Transaction", "Formal Assessment", "Run Subprocess", "Receive Document", "Compose Document", "Parallel Execution" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
